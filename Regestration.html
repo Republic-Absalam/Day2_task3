@@ -1,0 +1,76 @@
+<html>
+    <title>Resgistration Page</title>
+    <body>
+        <div style="text-align: center;">
+            <h1>Regestration Form</h1>
+        </div>
+        <div>
+            <form method="get" action="Thankyou.html">
+                <table>
+                <tr>
+                    <td><label for="firstname">First Name:</label></td>
+                    <td><input type="text" name="firstname" ></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="lastname">Last Name:</label></td>
+                    <td><input type="text" name="lastname" ></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="password" ></td>
+                </tr>
+                <tr>
+                    <td><label for="repeatedpassword">Repeat Password:</label></td>
+                    <td><input type="password" name="repeatedpassword" ></td>
+                </tr>
+                <tr>
+                    <td><label for="profilepic">Profile Picture:</label></td>
+                    <td><input type="file" name="profilepic" ></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td><input type="radio" name="gender">Male</td>
+                    <td><input type="radio" name="gender">Female</td>
+                </tr>
+                <tr>
+                    <td><label for="faculty">Faculty:</label></td>
+                    <td><select id="faculty" name="faculty" >
+                    <option value="">-- Select Faculty --</option>
+                    <option value="engineering">Engineering</option>
+                    <option value="computers">Computers and Information</option>
+                    <option value="science">Science</option>
+                    <option value="medicine">Medicine</option>
+                    <option value="commerce">Commerce</option>
+                    <option value="arts">Arts</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="interest">Interests:</label></td>
+                    <td><input type="checkbox" name="interest">Programming</td>
+                    <td><input type="checkbox" name="interest">Reading</td>
+                    <td><input type="checkbox" name="interest">Swimming</td>
+                </tr>
+                <tr>
+                    <td><label for="about">About you:</label></td>
+                    <td><textarea name="about" rows="4" cols="25"></textarea></td>
+                </tr>
+                </table>
+                <div>                  
+                    <input type="checkbox" name="terms" >
+                    <label for="terms"><a href="Home.html" target="_blank">I agreed to terms and condition</a></label>
+                </div>
+                <div>
+                    <button href="Regestration.html">Clear</button>
+                    <button href="Thankyou.html">Submit</button>
+                </div>
+
+            </form> 
+        </div>
+
+    </body>
+
+
+
+</html>
